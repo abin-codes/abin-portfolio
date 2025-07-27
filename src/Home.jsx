@@ -1,6 +1,6 @@
 import React from 'react';
-import './home.css';
-import './button.css';
+import './Home.css';
+import './Button.css';
 import profilePic from './assets/profile.jpg'; // You can use any image
 
 const Home = () => {

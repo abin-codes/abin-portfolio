@@ -1,5 +1,5 @@
 import './Header.css';
-import './toggle.css';
+import './Toggle.css';
 import { useEffect, useState } from 'react';
 
 function Header() {
