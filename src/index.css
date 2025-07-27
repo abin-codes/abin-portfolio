@@ -1,0 +1,35 @@
+/* Toggle Light Dark Mode styles - Begining */
+
+
+/* Light mode (default) */
+body {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Optional: Add dark mode tweaks for nav, links, etc. */
+body.dark nav {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.08);
+}
+
+body.dark .nav-right a {
+  color: #f1f1f1;
+}
+
+body.dark .nav-right a:hover {
+  color: #00bcd4;
+}
+
+body.dark .nav-right a::after {
+  background-color: #00bcd4;
+}
+
+/* Toggle Light Dark Mode styles - End of the code */
