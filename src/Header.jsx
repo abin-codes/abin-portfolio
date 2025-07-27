@@ -1,4 +1,4 @@
-import './header.css';
+import './Header.css';
 import './toggle.css';
 import { useEffect, useState } from 'react';
 
