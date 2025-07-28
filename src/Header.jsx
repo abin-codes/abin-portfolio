@@ -47,7 +47,7 @@ function Header() {
 
         <div className={`nav-right ${menuOpen ? 'show' : ''}`}>
           <a href="/">Home</a>
-          <a href="#projects">Projects</a>
+          <a href="/projects">Projects</a>
           <a href="#designs">Designs</a>
           <a href="#about">About</a>
           <a href="#gallery">Gallery</a>
